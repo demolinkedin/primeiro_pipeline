@@ -33,11 +33,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-
-  deploy-dev:
-    needs: build
-    uses: demolinkedin/pipelines-templates/.github/workflows/demo-deploy.yml@main
-    with: 
-      text-teste: "Teste Linkedin"
     
   
